@@ -1,0 +1,53 @@
+
+project name=== >  sweet-sea-507
+
+It is application which is operated by admin and emlpoyees.
+It is used to manage department and employees details And also for communicate between employees and admin.
+
+
+There are 3 tables;
+1) Admin
+2) Employee
+3) Leaves
+
+In Admin and employee there is relationship of one to many 
+In Employee and Leaves table there is relationship of one to one.
+
+
+
+DEPARTMENT
+===========
+
+create table department(
+depid int not null unique auto_increment primary key,
+name varchar(20) unique  not null,
+ address varchar(30) not null
+);
+
+
+EMPLOYEE
+========
+
+create table employee(
+eid int  not null auto_increment primary key,
+name varchar(20) not null,
+email varchar(20) not null,
+address varchar(30) not null,
+ username varchar(20) unique not null,
+password varchar(20) not null,
+did int not null,
+ foreign key (did) references department(depid)  
+);
+
+
+Leaves
+=======
+
+create table leaves(
+EmpId int unique not null,
+ReasonAndDate varchar(100),
+status varchar(20),
+check(status ='Deny' OR status ='accept' OR status ='pending'),
+Foreign key (EmpId) references employee(eid)
+);
+
