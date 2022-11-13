@@ -1,2 +1,0 @@
-It is application which is operated by admin and emlpoyees.
-It is used to manage department and employees details And also for communicate between employees and admin.
