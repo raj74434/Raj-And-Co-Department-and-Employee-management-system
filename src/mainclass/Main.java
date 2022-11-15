@@ -8,6 +8,7 @@ import com.rajandco.usedcases.AddNewDepartment;
 import com.rajandco.usedcases.RegisterNewEmployee;
 import com.rajandco.usedcases.RespondLeaveRequest;
 import com.rajandco.usedcases.ShowAllDepartments;
+import com.rajandco.usedcases.ShowAllLeaves;
 import com.rajandco.usedcases.TransferEmployeeAnotherDepartments;
 import com.rajandco.usedcases.UpdateDepartmentDetails;
 import com.rajandco.usedcasesOF_Employee.ChangePasswordOfEmployee;
@@ -56,6 +57,7 @@ public class Main {
 				System.out.println("4 => Add new Department.....");
 				System.out.println("5 => Register New Employee.....");
 				System.out.println("6 => Leave requests Respond....");
+				System.out.println("7 => Show all Leave requests....");
 				System.out.println("9 => Logout....");
 				
 				int choose1=Integer.parseInt(sc.nextLine());
@@ -84,11 +86,16 @@ public class Main {
 					RespondLeaveRequest ob=new RespondLeaveRequest("show");
 					
 				}
+				else if(choose1==7) {
+					ShowAllLeaves ob=new ShowAllLeaves("show");
+					
+				}
 				
 				else if(choose1==9) {
 					access=false;
 					System.out.println("Logout Success.......");
-				}
+							System.out.println("Thanks for visit..");
+				} 
 				
 					
 				

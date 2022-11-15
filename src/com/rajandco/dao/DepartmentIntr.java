@@ -21,4 +21,6 @@ public interface DepartmentIntr {
 	public String leavesAcceptOrDeny(int eid,boolean flag)throws DepartmentException;
 	
 	
+	
+	
 }
