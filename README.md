@@ -9,8 +9,8 @@
   <h3> Description</h3>
   <p>Both user have different accessibility.</p>
   
-  <h4>Admin accessibilities</h4>
-  <p>1 => Update Department details.....</p> 
+  <h3>Admin accessibilities</h3>
+  <p>Update Department details.....</p> 
   <p>View all departments......</p>
   <p>Tranfer employee in another department..... </p>
   <p>Add new Department.....</p>
@@ -19,7 +19,7 @@
   <p>Show all Leave requests....</p>
   <p>Logout....</p>
   
-  <h4>Employee accessibilities</h4>
+  <h3>Employee accessibilities</h3>
   
   <p>View Profile ....</p>
   <p>Update profile.......</p>
