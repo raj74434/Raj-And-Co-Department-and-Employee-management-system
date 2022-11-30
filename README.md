@@ -29,5 +29,7 @@
   
   
   
-<h3> Tech stack :- Java </h3>
-
+<h3> Tech stack  </h3>
+<h3> Java</h3>
+<h3> MySql</h3>
+<h3> </h3>
