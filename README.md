@@ -6,7 +6,7 @@
   <li> Employee </li>
   </ul>
   
-  <h3> Description</h3>
+  <h2> Description</h2>
   <p>Both user have different accessibility.</p>
   
   <h3>Admin accessibilities</h3>
